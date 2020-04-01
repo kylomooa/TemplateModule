@@ -1,0 +1,16 @@
+//
+//  DemoPrefixHeader.pch
+//  TemplateModuleDemo
+//
+//  Created by maoqiang on 2020/3/30.
+//  Copyright © 2020 maoqiang. All rights reserved.
+//
+
+#ifndef DemoPrefixHeader_pch
+#define DemoPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#endif /* DemoPrefixHeader_pch */

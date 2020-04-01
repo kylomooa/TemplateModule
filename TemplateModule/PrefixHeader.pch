@@ -1,0 +1,13 @@
+//
+//  PrefixHeader.pch
+//  TemplateModule
+//
+//  Created by maoqiang on 2020/3/30.
+//  Copyright © 2020 maoqiang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#endif /* PrefixHeader_pch */

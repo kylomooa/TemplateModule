@@ -1,0 +1,38 @@
+#!/bin/bash
+
+echo "移除pod"
+pod deintegrate
+
+echo "请输入工程名称:"
+read moduleName
+echo "输入的工程名称是：${moduleName}"
+echo "确定：(Y/N)"
+read confirm
+
+if [ "$confirm" = "Y" ]
+then
+
+curFilePath="${PWD}"
+curProjectName=${curFilePath##*/}
+
+echo "替换文件名"
+rename "s/${curProjectName}/${moduleName}/" *
+rename "s/${curProjectName}/${moduleName}/" */*
+rename "s/${curProjectName}/${moduleName}/" */*/*
+rename "s/${curProjectName}/${moduleName}/" */*/*/*
+
+echo "替换内容"
+export LC_COLLATE='C'
+export LC_CTYPE='C'
+sed -i '' "s/${curProjectName}/${moduleName}/g" `grep ${curProjectName} . -rl`
+
+echo "安装pod"
+pod install
+
+echo "修改目录文件名"
+cd ..
+rename "s/${curProjectName}/${moduleName}/" *
+
+else
+echo "已取消"
+fi

@@ -1,0 +1,6 @@
+framework module TemplateModule {
+  umbrella header "TemplateModule.h"
+
+  export *
+  module * { export * }
+}

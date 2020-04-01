@@ -1,0 +1,23 @@
+${PODS_ROOT}/Target Support Files/Pods-commonPods-TemplateModuleDemo/Pods-commonPods-TemplateModuleDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework
+${BUILT_PRODUCTS_DIR}/MGJRouter/MGJRouter.framework
+${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework
+${BUILT_PRODUCTS_DIR}/MagicalRecord/MagicalRecord.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/POBaseModule/POBaseModule.framework
+${BUILT_PRODUCTS_DIR}/POBaseUIModule/POBaseUIModule.framework
+${BUILT_PRODUCTS_DIR}/POLocaltionTool/POLocaltionTool.framework
+${BUILT_PRODUCTS_DIR}/POMediaTool/POMediaTool.framework
+${BUILT_PRODUCTS_DIR}/PONetWorking/PONetWorking.framework
+${BUILT_PRODUCTS_DIR}/POPhotoPickerModule/POPhotoPickerModule.framework
+${BUILT_PRODUCTS_DIR}/POPreviewImageView/POPreviewImageView.framework
+${BUILT_PRODUCTS_DIR}/POQiniuTool/POQiniuTool.framework
+${BUILT_PRODUCTS_DIR}/Qiniu/Qiniu.framework
+${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework
+${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework
+${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework
+${BUILT_PRODUCTS_DIR}/YYText/YYText.framework
+${BUILT_PRODUCTS_DIR}/YYWebImage/YYWebImage.framework
+${BUILT_PRODUCTS_DIR}/Aspects/Aspects.framework
+${BUILT_PRODUCTS_DIR}/SensorsAnalyticsSDK/SensorsAnalyticsSDK.framework
